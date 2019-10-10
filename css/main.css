@@ -1,3 +1,5 @@
+/* Presentation */
+
 *,
 *:before,
 *:after {
@@ -19,6 +21,8 @@ ul {
   color: #665;
   font-size: 0.75em;
 }
+
+/* Below is being used by the observers */
 
 .is-visible {
   color: red;
