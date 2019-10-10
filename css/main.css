@@ -1,0 +1,39 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  color: #333;
+  font: 1rem/1.5 sans-serif;
+  margin: 2rem 10vw;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.copyright {
+  color: #665;
+  font-size: 0.75em;
+}
+
+.is-visible {
+  color: red;
+  font-size: 2em;
+  transition: color 2s ease, font-size 2s ease;
+}
+
+.small h3::before {
+  content: 'small ';
+}
+
+.medium h3::before {
+  content: 'medium ';
+}
+
+.large h3::before {
+  content: 'large ';
+}
